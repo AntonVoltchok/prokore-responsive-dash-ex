@@ -1,8 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import "./normalize.css";
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import WebFont from 'webfontloader';
+
+WebFont.load({
+    google: {
+        families: ['Roboto:400,500', 'Roboto Condensed: 400', 'Lato: 300, 400']
+    }
+});
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
