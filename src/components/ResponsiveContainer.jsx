@@ -5,12 +5,12 @@ import { STYLES } from "../globals";
 const { PADDING_SM } = STYLES;
 
 
-const Dashboard = (props) => {
+const ResponsiveContainer = (props) => {
     const ResponsiveWrapper = styled.div`
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.18);
     padding: 0 ${PADDING_SM};
 
   @media ${device.desktop} {
@@ -33,4 +33,4 @@ const Dashboard = (props) => {
     );
 };
 
-export default Dashboard;
+export default ResponsiveContainer;

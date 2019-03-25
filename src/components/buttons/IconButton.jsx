@@ -8,20 +8,19 @@ import { STYLES, COLORS } from "../../globals";
 const IconButton = props => {
   const ButtonContainer = styled.div`
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 100%;
   `;
 
   const Icon = styled.img`
     height: ${props => props.size || "19px"};
-    margin-right: 7px;
+    margin: ${props => props.margin || "0 7px 0 0"};
   `;
 
   const ButtonLabel = styled.div`
     font-size: 16px;
     font-weight: 400;
     color: ${props => props.color || COLORS.linkButtonIndigo};
+    margin-right: 25px;
   `;
 
   //<img style={{width:20}} src={options} className="App-logo" alt="logo" />
@@ -30,7 +29,7 @@ const IconButton = props => {
   if (type === "options") {
     return (
       <ButtonContainer>
-        <Icon size={"36px"} src={optionIcon} />
+        <Icon size={"36px"} margin={"0px"} src={optionIcon} />
       </ButtonContainer>
     );
   } else if (type === "edit") {
