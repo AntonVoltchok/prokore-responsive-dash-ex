@@ -29,22 +29,3 @@ const ActionBar = () => {
 };
 
 export default ActionBar;
-
-/*
-
-    switch (props.type) {
-       case 'edit': return <div>edit</div>;
-       default: return false;
-   }
-    */
-
-// @media ${ device.desktop } {
-//   width: 100 %;
-// }
-//   const MockNavItem = styled.div`
-//   background: hsla(218, 30%, 90%, 1);
-//   height: ${props => props.height || "22px"};
-//   width: ${props => props.width || "70px"};
-//   border-radius: 5px;
-//   margin: 0 20px;
-// `;

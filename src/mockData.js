@@ -42,9 +42,9 @@ export default [
                     {
                         type: "multi_family",
                         typeDescription: "Multi-family",
-                        sqft: null,
+                        sqft: 1,
                         numberOfUnits: null,
-                        isSelected: false
+                        isSelected: true
                     },
                     {
                         type: "healthcare",
@@ -101,7 +101,7 @@ export default [
             {
                 bid: "524f68eb115247a1a0a7d55855235a38",
                 fullAddress: "654 Madison Avenue, New York, NY 10065 USA",
-                address: "654 Madison Avenue",
+                address: "233 Christopher St",
                 address2: "",
                 city: "New York",
                 state: "NY",
@@ -117,16 +117,16 @@ export default [
                     {
                         type: "office",
                         typeDescription: "Office",
-                        sqft: 1,
+                        sqft: null,
                         numberOfUnits: null,
-                        isSelected: true
+                        isSelected: false
                     },
                     {
                         type: "industrial",
                         typeDescription: "Industrial",
-                        sqft: null,
+                        sqft: 1,
                         numberOfUnits: null,
-                        isSelected: false
+                        isSelected: true
                     },
                     {
                         type: "retail",
@@ -197,7 +197,7 @@ export default [
             {
                 bid: "ed612ce604274d70a637e0144db04e99",
                 fullAddress: "654 Madison Avenue, New York, NY 10065 USA",
-                address: "654 Madison Avenue",
+                address: "125 Varick St",
                 address2: "",
                 city: "New York",
                 state: "NY",
@@ -213,7 +213,7 @@ export default [
                     {
                         type: "office",
                         typeDescription: "Office",
-                        sqft: 1,
+                        sqft: 0,
                         numberOfUnits: null,
                         isSelected: true
                     },
@@ -227,9 +227,9 @@ export default [
                     {
                         type: "retail",
                         typeDescription: "Retail",
-                        sqft: null,
+                        sqft: 1,
                         numberOfUnits: null,
-                        isSelected: false
+                        isSelected: true
                     },
                     {
                         type: "multi_family",
@@ -293,7 +293,7 @@ export default [
             {
                 bid: "f8c69139133245c6b12785e1591f13f9",
                 fullAddress: "654 Madison Avenue, New York, NY 10065 USA",
-                address: "654 Madison Avenue",
+                address: "198 Madison Avenue",
                 address2: "",
                 city: "New York",
                 state: "NY",
@@ -421,7 +421,7 @@ export default [
                         typeDescription: "Retail",
                         sqft: null,
                         numberOfUnits: null,
-                        isSelected: false
+                        isSelected: true
                     },
                     {
                         type: "multi_family",

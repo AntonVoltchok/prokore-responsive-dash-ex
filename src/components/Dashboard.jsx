@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Card from "./Card";
 import ResponsiveContainer from "./ResponsiveContainer";
+import device from './utils/device'
 import { STYLES } from "../globals";
 const { SPACE_MD } = STYLES;
 
@@ -11,6 +12,9 @@ const Dashboard = props => {
     justify-content: center;
     align-items: center;
     margin: ${SPACE_MD} 0 0 0;
+    @media ${device.desktop} {
+      width: 100%;
+    }
   `;
 
   const {data} = props;

@@ -29,6 +29,7 @@ class App extends Component {
         address: obj.address,
         cityStateZip: `${obj.city}, ${obj.state}, ${obj.zip}`,
         floorCount: obj.address,
+        sqFt: '17,650 SqFt',
         types: obj.newPropertyTypes.filter(typeItem => typeItem.isSelected),
         completeRates: item.isComponentRatesCompleted,
         completeExpenses: item.isPropertyExpensesCompleted,
